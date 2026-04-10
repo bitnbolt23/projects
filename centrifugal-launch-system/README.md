@@ -34,15 +34,6 @@ The Arduino was used to:
 
 *(Add your `.ino` file in this folder)*
 
-# Project Images
-(Add images here after uploading)
-
-Example:
-```
-![Prototype](images/prototype.jpg)
-```
-
----
 
 # Applications
 - Alternative launch system research
@@ -70,4 +61,4 @@ Example:
 
 
 # Author
-Your Name
+Tanmayee V Desai
