@@ -1,0 +1,59 @@
+# Sign Language Translator 🤟
+
+# Overview
+This project is a glove-based sign language translator designed to help bridge communication between deaf or hard-of-hearing individuals and others. 
+The system detects hand gestures and converts them into readable output.
+
+# Objective
+To develop an affordable and accessible system that translates hand gestures into meaningful text, reducing communication barriers and promoting inclusivity.
+
+# System Components
+- Raspberry Pi Pico
+- Flex Sensors (custom-made)
+- Accelerometer (ADXL345)
+- Multiplexer
+- LCD Display (16x2)
+- Jumper wires
+- Power supply
+
+# Working Principle
+- Flex sensors detect finger bending
+- Accelerometer tracks hand motion
+- Multiplexer manages multiple sensor inputs
+- Raspberry Pi Pico processes signals
+- Detected gestures are mapped to predefined outputs
+- Output is displayed on LCD
+
+# Code
+The system is programmed using Python (Thonny IDE).
+
+Main functionalities:
+- Sensor data acquisition
+- Gesture detection logic
+- Output display
+
+*(Add your Python code file here)*
+
+---
+
+
+# Challenges Faced
+- Difficulty in sourcing flex sensors (built manually)
+- Limited simulation tools for Raspberry Pi Pico
+- Pin limitations → solved using multiplexer
+- Lack of references for Pico-based implementation
+
+
+#Learnings
+- Sensor integration and calibration
+- Embedded system design
+- Problem-solving under constraints
+- Importance of accessibility-focused engineering
+
+#  Future Improvements
+- Add speech output (text-to-speech)
+- Improve gesture recognition accuracy
+- Use machine learning for dynamic gesture detection
+
+
+- Tanmayee Desai
